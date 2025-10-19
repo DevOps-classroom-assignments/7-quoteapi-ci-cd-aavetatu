@@ -1,4 +1,4 @@
-name: QuoteAPI
+name: CI
 
 on:
   push:

@@ -1,8 +1,8 @@
-name: QuoteAPI Deployment
+name: CD
 
 on:
   workflow_run:
-    workflows: ["QuoteAPI"]
+    workflows: ["CI"]
     types:
       - completed
 
