@@ -2,8 +2,7 @@ name: QuoteAPI Deployment
 
 on:
   workflow_run:
-    workflows:
-      - "QuoteAPI"
+    workflows: ["QuoteAPI"]
     types:
       - completed
 
